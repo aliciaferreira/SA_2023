@@ -5,9 +5,9 @@ $usuario=(isset($_GET['usuario'])?$_GET['usuario']:"No cargaste un nombre de usu
 $color=(isset($_GET['color'])?$_GET['color']:"No cargaste un color preferido");
 $agregado = (isset($_GET['agre']) ? $_GET['agre'] : "No cargaste el campo agregado");
 
-echo "Hola $usuario";
-echo "Tu color preferido es: $color";
-echo "Campo agregado es : $agregado";
+echo "Hola $usuario <br>";
+echo "Tu color preferido es: $color <br>";
+echo "Campo agregado es : $agregado <br>";
 
 
 
