@@ -4,7 +4,7 @@ require ("preferencias.html");
 $usuario=(isset($_GET['usuario'])?$_GET['usuario']:"No cargaste un nombre de usuario");
 $color=(isset($_GET['color'])?$_GET['color']:"No cargaste un color preferido");
 $banda=(isset($_GET['banda'])?$_GET['banda']:"No cargaste una banda preferido");
-$deporte=(isset($_GET['deporte'])?$_GET['deporte']:"No cargaste un deporte preferido o jovie");
+$deporte=(isset($_GET['deporte'])?$_GET['deporte']:"No cargaste un deporte preferido");
 
 
 
