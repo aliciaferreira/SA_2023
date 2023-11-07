@@ -11,6 +11,8 @@ echo "<br>Hola $usuario <br>";
 echo "Tu color preferido es: $color <br>";
 echo "Tu banda preferida es: $banda <br>";
 echo " Y tu pc es marca: $pc <br>";
+echo"<br> Que  tengas  buen  dia  $usuario";
+
 
 
 
