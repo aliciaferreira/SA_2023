@@ -7,6 +7,7 @@ $color = (isset($_GET['color']) ? $_GET['color'] : "No cargaste un color preferi
 $banda=(isset($_GET['banda'])?$_GET['banda']:"No cargaste una banda preferido");
 $deporte=(isset($_GET['deporte'])?$_GET['deporte']:"No cargaste un deporte preferido");
 $club=(isset($_GET['club'])?$_GET['club']:"No cargaste un club");
+$edad=(isset($_GET['edad'])?$_GET['edad']:"No cargaste una edad preferido");
 $email=(isset($_POST['email'])?$_POST['email']:"No cargaste un email");
 $pc=(isset($_GET['pc'])?$_GET['pc']:"No cargaste un nombre de pc");
 $agregado = (isset($_GET['agre']) ? $_GET['agre'] : "No cargaste el campo agregado");
@@ -15,6 +16,7 @@ $gonza = (isset($_GET['gonza']) ? $_GET['gonza'] : "No cargaste tu tipo de Gonza
 
 echo "Hola $usuario";
 echo "Tu color preferido es: $color";
+echo "Tu edad preferida es: $edad";
 echo "Tu banda preferida es: $banda";
 echo "Tu email es: $email";
 echo " Y tu pc es marca: $pc <br>";
@@ -22,10 +24,6 @@ echo "Tu película de preferencia es: " . $pelicula;
 echo "Tu tipo de Gonza preferido es: " . $gonza;
 echo "Tu deporte preferida es: $deporte";
 echo "Sos hincha de: $club";
-
-
-
-
 
 
 ?>
